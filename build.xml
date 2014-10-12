@@ -4,7 +4,7 @@
  <property name="toolsdir" value=""/>
 
  <!-- Uncomment the following when the tools are in ${basedir}/vendor/bin -->
-<property name="toolsdir" value="${basedir}/build/tools"/>
+<!--<property name="toolsdir" value="${basedir}/build/tools"/>-->
 
  <target name="build"
          depends="prepare,lint,phploc-ci,pdepend,phpmd-ci,phpcs-ci,phpcpd-ci,phpunit,phpdox"
